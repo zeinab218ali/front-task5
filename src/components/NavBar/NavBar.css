@@ -1,0 +1,12 @@
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+nav a.active{
+    color: brown;
+}
