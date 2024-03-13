@@ -1,0 +1,13 @@
+.BA-container{
+    width: 85%;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.BA-container .BA-card{
+    border:  #aeadad94 solid 1px;
+    box-shadow: 0px 0px 8px  #aeadad94;
+    align-items: center;
+    border-radius: 20px;
+}

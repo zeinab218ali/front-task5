@@ -1,0 +1,24 @@
+.BA-card .MC-container{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    border-bottom: #aeadad94 solid 1px;
+    margin-bottom: 20px;
+    padding: 20px;
+
+}
+.MC-container .MC-info{
+    font-weight: 500;
+    font-size: 15px;
+    height: 40px;
+    font-family: poppins, sans-serif;
+    color: #aeadad;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+.BA-card .MC-container:last-child{
+border-bottom: none;
+}
+.MC-container .MC-info .desc{
+    width: 25vh;
+}
