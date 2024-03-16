@@ -1,0 +1,135 @@
+.best-deal .up-section {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding-top: 30px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+
+}
+.best-deal .up-section .left{
+    width: 30%;
+    
+}
+.best-deal .up-section .left .h5-container {
+    border-left: 3px solid #f35525;
+    margin-bottom: 40px;
+}
+
+.best-deal .up-section .left .h5-container h5 {
+    color: #f35525;
+    padding-left: 7px;
+}
+
+.best-deal .up-section .left h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.best-deal .up-section .right{
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+
+.best-deal .up-section .right .right-btn button{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+   background-color: #f35525;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+.best-deal .up-section .right .right-btn button:hover{
+    cursor: pointer;
+    background-color: #f35525a5;
+}
+/* .best-deal .up-section .right .right-btn button.active{
+    background-color: #f35525;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+} */
+.best-deal .down-section {
+    display: flex;
+    gap: 60px;
+    width: 90%;
+    margin: 0 auto;
+}
+.best-deal .down-section .left-card{
+    width: 100vw;
+    border:  #aeadad94 solid 1px;
+    box-shadow: 0px 0px 8px  #aeadad94;
+    /* align-items: center; */
+    border-radius: 20px;
+    font-family: poppins, sans-serif
+}
+.best-deal .down-section .left-card .card-details{
+    display: flex;
+    /* gap: 30px; */
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom: 1px solid #aeadad94;
+    
+}
+.best-deal .down-section .left-card .card-details:last-child{
+    margin-bottom: 0px;
+    border-bottom: none;
+}
+.best-deal .down-section .left-card .card-details h5{
+    font-size: 15px;
+    color: #aaa;
+    font-weight: 400;
+}
+.best-deal .down-section .left-card .card-details p{
+    font-size: 20px;
+    color: #1e1e1e;
+    font-weight: 700;
+}
+.best-deal .down-section .extra-info h4{
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.best-deal .down-section .extra-info .details-text{
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 33px;
+    color: #4a4a4a;
+    font-family: poppins, sans-serif
+}
+.best-deal .down-section .btn{
+    background-color: black;
+    display: flex;
+    width: 160px;
+    justify-content:flex-end;
+    padding: 12px;
+    border-radius: 30px;
+    position: relative;
+    margin-top: 50px;
+}
+.best-deal .down-section .btn .icon-container{
+    border-radius: 50%;
+    background-color: #f35525;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 43px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.best-deal .down-section .btn button{
+    background-color: black;
+    color: white;
+    border-style: none;
+    border-radius: 30px;
+    font-family: poppins, sans-serif;
+    font-size: 14px;
+} 

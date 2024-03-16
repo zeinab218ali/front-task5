@@ -7,11 +7,12 @@ import Home from './components/Home/Home'
 import PropertyDetails from './components/Property-Details/PropertyDetails'
 import ContactUs from './components/Contact-Us/ContactUs'
 import Properties from './components/Properties/Properties'
-import VideoView from './components/VideoView/VideoView'
+// import BESTDEAL from './components/BESTDEAL/BESTDEAL'
+// import VideoView from './components/VideoView/VideoView'
 // import Hero from './components/Hero/Hero'
 // import CardKm from './components/Card/CardKm'
 // import BestAppartment from './components/BestAppartment/BestAppartment'
-// import Carousels from './components/Carousels/Carousels'
+import Carousels from './components/Carousels/Carousels'
 
 function App() {
   
@@ -26,14 +27,16 @@ function App() {
        num3='545m2' num4='3' num5='6 spots'
      /> */}
      {/* <Hero /> */}
-     <VideoView />
+     {/* <VideoView /> */}
+     {/* <BESTDEAL /> */}
+       <Carousels />
      <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/properties' element={<Properties />} />
         <Route path='/property-detailes' element={<PropertyDetails />} />
         <Route path='/contact-us' element={<ContactUs/>} />
       </Routes>
-      {/* <Carousels /> */}
+    
     </div>
     </BrowserRouter>
     
