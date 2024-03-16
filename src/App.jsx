@@ -7,12 +7,13 @@ import Home from './components/Home/Home'
 import PropertyDetails from './components/Property-Details/PropertyDetails'
 import ContactUs from './components/Contact-Us/ContactUs'
 import Properties from './components/Properties/Properties'
+import ContactUsSection from './components/ContactUsSection/ContactUsSection'
 // import BESTDEAL from './components/BESTDEAL/BESTDEAL'
 // import VideoView from './components/VideoView/VideoView'
 // import Hero from './components/Hero/Hero'
 // import CardKm from './components/Card/CardKm'
 // import BestAppartment from './components/BestAppartment/BestAppartment'
-import Carousels from './components/Carousels/Carousels'
+// import Carousels from './components/Carousels/Carousels'
 
 function App() {
   
@@ -29,7 +30,8 @@ function App() {
      {/* <Hero /> */}
      {/* <VideoView /> */}
      {/* <BESTDEAL /> */}
-       <Carousels />
+       {/* <Carousels /> */}
+       <ContactUsSection />
      <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/properties' element={<Properties />} />
