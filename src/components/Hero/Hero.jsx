@@ -1,21 +1,21 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import './Hero.css'
-const Hero = () => {
+const Hero = ({photo,path,pathHeader,sp,H3}) => {
     return (
         <div className='hero'>
-            <img src="./page-heading-bg.jpg" className='hero-img' alt="" />
+            <img src={photo} className='hero-img' alt="" />
             <div className="info">
                 <div className="home-link">
                 <NavLink
-                    to="/home"
+                    to={path}
 
                 >
-                    HOME
+                    {pathHeader}
                 </NavLink>
-                <span>/ PROPERTIES</span>
+                <span>{sp}</span>
                 </div>
-                <h3>PROPERTIES</h3>
+                <h3>{H3}</h3>
             </div>
         </div>
     )

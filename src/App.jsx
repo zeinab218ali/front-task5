@@ -7,7 +7,8 @@ import Home from './components/Home/Home'
 import PropertyDetails from './components/Property-Details/PropertyDetails'
 import ContactUs from './components/Contact-Us/ContactUs'
 import Properties from './components/Properties/Properties'
-import Hero from './components/Hero/Hero'
+import VideoView from './components/VideoView/VideoView'
+// import Hero from './components/Hero/Hero'
 // import CardKm from './components/Card/CardKm'
 // import BestAppartment from './components/BestAppartment/BestAppartment'
 // import Carousels from './components/Carousels/Carousels'
@@ -24,7 +25,8 @@ function App() {
        desc='18 New Street Miami, OR 97219' num1='8' num2='8'
        num3='545m2' num4='3' num5='6 spots'
      /> */}
-     <Hero />
+     {/* <Hero /> */}
+     <VideoView />
      <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/properties' element={<Properties />} />
