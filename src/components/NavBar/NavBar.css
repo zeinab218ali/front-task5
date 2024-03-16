@@ -1,4 +1,4 @@
-nav{
+ nav{
     display: flex;
     justify-content: space-between;
     padding: 10px 30px;
@@ -56,4 +56,5 @@ nav .btn button{
     border-radius: 30px;
     font-family: poppins, sans-serif;
     font-size: 14px;
-}
+} 
+ 
