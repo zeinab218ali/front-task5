@@ -6,6 +6,7 @@ const BestAppartment = () => {
     return (
         <div className='BA-container'>
             <img src="./4.jpg" alt="" />
+            
             <Txt H4='featured' H2='Best Appartment & Sea View' />
             <div className="BA-card">
                 <MiniCard

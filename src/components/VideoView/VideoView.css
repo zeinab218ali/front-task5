@@ -1,3 +1,7 @@
+.video-container{
+        position: relative;
+        top: 190px;
+}
 .video-img{
     position: absolute;
     top: 70px;

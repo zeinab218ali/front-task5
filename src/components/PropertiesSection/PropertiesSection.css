@@ -1,3 +1,7 @@
+.PropertiesSection-container{
+    position: relative;
+    top: 300px;
+}
 .PropertiesSection-container .hero .info .home-link{
     background-color: transparent;
 }

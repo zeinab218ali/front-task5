@@ -1,3 +1,12 @@
+.contact-container{
+    position: relative;
+    top: 450px;
+}
+.contact-container .hero{
+    position: relative;
+    transform: translate(0%, 300%);
+
+}
 .contact-container .hero .info{
     transform: translate(-50%, -95%);
 } 
@@ -19,7 +28,7 @@ color: #f35525;
     position: absolute;
     top: 50px;
     left: 50px;
-    transform: translate(10%, 50%);
+    transform: translate(10%, 240%);
     margin-bottom: 50px;
 }
 .map-container{

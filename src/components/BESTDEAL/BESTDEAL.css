@@ -1,3 +1,7 @@
+.best-deal{
+    position: relative;
+    top: 200px;
+}
 .best-deal .up-section {
     display: flex;
     justify-content: space-between;
@@ -62,7 +66,7 @@
     margin: 0 auto;
 }
 .best-deal .down-section .left-card{
-    width: 100vw;
+    width: 400px;
     border:  #aeadad94 solid 1px;
     box-shadow: 0px 0px 8px  #aeadad94;
     border-radius: 20px;
@@ -106,23 +110,24 @@
 .best-deal .down-section .btn{
     background-color: black;
     display: flex;
-    width: 160px;
+    width: 182px;
     justify-content:flex-end;
-    padding: 12px;
+    padding: 14px;
     border-radius: 30px;
     position: relative;
     margin-top: 50px;
+
 }
 .best-deal .down-section .btn .icon-container{
     border-radius: 50%;
     background-color: #f35525;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     text-align: center;
     line-height: 43px;
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: -42px;
+    top: -40px;
 }
 .best-deal .down-section .btn button{
     background-color: black;
