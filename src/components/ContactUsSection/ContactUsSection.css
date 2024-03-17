@@ -1,23 +1,60 @@
+.contact-container .hero .info{
+    transform: translate(-50%, -95%);
+} 
+.contact-container .hero .info .home-link{
+    background-color: transparent;
+}
+.contact-container .hero .info .home-link span{
+color: #f35525;
+}
+.contact-container .hero .info h3{
+    width: 70%;
+}
 
 .contact-container .map-and-form-container{
     display: flex;
     width: 80%;
     margin: 0 auto;
     justify-content: space-between;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    transform: translate(10%, 50%);
+    margin-bottom: 50px;
 }
 .map-container{
-    /* width:40% ; */
+    width:50% ;
+}
+.map-container iframe{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 30px;
 }
 .map-container .mini-cards{
     display: flex;
     width: 90%;
-    justify-content: space-between;
+    gap: 30px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.map-container .mini-cards .MC-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.map-container .mini-cards .MC-container .MC-img{
+    padding-top: 40px;
 }
 .form-container{
     width: 40%;
 }
 .form-container form{
     width: 100%;
+    background-color:white;
     border:  #aeadad94 solid 1px;
     box-shadow: 0px 0px 8px  #aeadad94;
     border-radius: 20px;

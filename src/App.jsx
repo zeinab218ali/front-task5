@@ -7,6 +7,8 @@ import Home from './components/Home/Home'
 import PropertyDetails from './components/Property-Details/PropertyDetails'
 import ContactUs from './components/Contact-Us/ContactUs'
 import Properties from './components/Properties/Properties'
+import PropertiesSection from './components/PropertiesSection/PropertiesSection'
+import Footer from './components/Footer/Footer';
 import ContactUsSection from './components/ContactUsSection/ContactUsSection'
 // import BESTDEAL from './components/BESTDEAL/BESTDEAL'
 // import VideoView from './components/VideoView/VideoView'
@@ -31,7 +33,9 @@ function App() {
      {/* <VideoView /> */}
      {/* <BESTDEAL /> */}
        {/* <Carousels /> */}
+       <PropertiesSection />
        <ContactUsSection />
+       <Footer />
      <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/properties' element={<Properties />} />

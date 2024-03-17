@@ -1,6 +1,6 @@
 .card-cotainer{
-    width: 25%;
-    font-family: poppins, sans-serif;
+    width: 30%;
+    font-family: 'poppins', sans-serif;
 }
 .card-cotainer img{
     width: 100%;
@@ -38,7 +38,7 @@
 .card-cotainer .desc{
     color: #1e1e1e;
     margin-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-weight: 700;
     padding: 5px;
 }
@@ -47,8 +47,8 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 33px;
-    margin-bottom: 25px;
+    gap: 20px;
+    margin-bottom: 15px;
     padding-bottom: 30px;
     border-bottom:1px solid #aeadad56 ;
 }
@@ -62,10 +62,10 @@
 
 }
 .card-cotainer .card-btn{
-    width: 60%;
+    width: 50%;
     margin: 0px auto;
     text-align: center;
-    padding: 15px 0px;
+    padding: 10px 0px;
     background-color: #1e1e1e;
     border-radius: 30px;
 }
